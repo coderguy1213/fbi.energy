@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+}
+
+.about, .purchase {
+    width: 90%;
+    max-width: 600px;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.about h2, .purchase h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.about ul {
+    list-style-type: disc;
+    margin: 1rem 0 0 1.5rem;
+}
+
+.purchase form {
+    display: flex;
+    flex-direction: column;
+}
+
+.purchase label {
+    margin-top: 0.5rem;
+}
+
+.purchase input, .purchase textarea, .purchase button {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.purchase button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease;
+    font-size: 1rem;
+}
+
+.purchase button:hover {
+    background-color: #555;
+}
+
+footer {
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.confirmation {
+    color: green;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
